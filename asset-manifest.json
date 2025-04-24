@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/irunguhptah/WP-Automator/static/css/main.607f2817.css",
+    "main.js": "/irunguhptah/WP-Automator/static/js/main.a263a449.js",
+    "index.html": "/irunguhptah/WP-Automator/index.html",
+    "main.607f2817.css.map": "/irunguhptah/WP-Automator/static/css/main.607f2817.css.map",
+    "main.a263a449.js.map": "/irunguhptah/WP-Automator/static/js/main.a263a449.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.607f2817.css",
+    "static/js/main.a263a449.js"
+  ]
+}
