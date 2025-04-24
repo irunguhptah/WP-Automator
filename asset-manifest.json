@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/WP-Automator/static/css/main.607f2817.css",
-    "main.js": "/WP-Automator/static/js/main.bbd98299.js",
+    "main.js": "/WP-Automator/static/js/main.18248b61.js",
     "index.html": "/WP-Automator/index.html",
     "main.607f2817.css.map": "/WP-Automator/static/css/main.607f2817.css.map",
-    "main.bbd98299.js.map": "/WP-Automator/static/js/main.bbd98299.js.map"
+    "main.18248b61.js.map": "/WP-Automator/static/js/main.18248b61.js.map"
   },
   "entrypoints": [
     "static/css/main.607f2817.css",
-    "static/js/main.bbd98299.js"
+    "static/js/main.18248b61.js"
   ]
 }
