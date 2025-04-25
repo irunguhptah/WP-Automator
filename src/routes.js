@@ -9,6 +9,7 @@ import SEOStrategy from './sections/SEOStrategy';
 import SEOFounder from './sections/SEOFounder';
 import FAQ from './sections/FAQ';
 import SEOFooter from './sections/SEOFooter';
+import Navbar from './sections/Navbar';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import DashboardLayout from './layouts/DashboardLayout';
@@ -24,6 +25,7 @@ export default function AppRoutes() {
       {/* Public Routes */}
       <Route path="/" element={
         <div>
+          <Navbar />
           <HeroSection />
           <SEOFeels />
           <SEOService />
@@ -37,8 +39,8 @@ export default function AppRoutes() {
         </div>
       } />
       
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
+      <Route path="/auth/Login" element={<Login />} />
+      <Route path="/auth/Register" element={<Register />} />
 
       {/* Protected Routes */}
       <Route path="/app" element={<DashboardLayout />}>

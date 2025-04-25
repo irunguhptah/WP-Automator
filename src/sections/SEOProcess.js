@@ -2,7 +2,7 @@ import React from 'react';
 
 const SEOProcess = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black py-16 md:py-24">
+    <div id="SEOProcess" className="bg-gradient-to-br from-gray-900 to-black py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-16">
         <div className="text-center mb-12">
           <h2 className="text-white text-4xl font-bold leading-tight mb-4">
@@ -21,7 +21,7 @@ const SEOProcess = () => {
               <img
                 src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3b023bd725_SEOauditstrategydevelopmentillustration-maprankmasters.svg"
                 alt="In-Depth SEO Audit & Strategy Development"
-                className="w-48 h-48 rounded-lg shadow-md"
+                className="w-60 h-60 rounded-lg shadow-md"
               />
             </div>
             <div className="md:w-1/2">
@@ -39,7 +39,7 @@ const SEOProcess = () => {
               <img
                 src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3af97835f2_OngoingOptimizationPerformanceTrackingillustration-maprankmasters.svg"
                 alt="On-Page Optimization & Technical Fixes"
-                className="w-48 h-48 rounded-lg shadow-md"
+                className="w-60 h-60 rounded-lg shadow-md"
               />
             </div>
             <div className="md:w-1/2 md:order-1">
@@ -57,7 +57,7 @@ const SEOProcess = () => {
               <img
                 src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3af8b46f00_High-AuthorityBacklinksillustration-maprankmasters.svg"
                 alt="High-Authority Backlink Building"
-                className="w-48 h-48 rounded-lg shadow-md"
+                className="w-60 h-60 rounded-lg shadow-md"
               />
             </div>
             <div className="md:w-1/2">
@@ -75,7 +75,7 @@ const SEOProcess = () => {
               <img
                 src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3afb12bf1f_Ongoingoptimizationillustration-maprankmasters.svg"
                 alt="Ongoing Optimization & Performance Tracking"
-                className="w-48 h-48 rounded-lg shadow-md"
+                className="w-60 h-60 rounded-lg shadow-md"
               />
             </div>
             <div className="md:w-1/2 md:order-1">

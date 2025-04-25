@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gradient-to-br from-blue-900 via-purple-900 to-black py-16 md:py-24 relative overflow-hidden">
+    <div id="HeroSection" className="bg-gradient-to-br from-blue-900 via-purple-900 to-black py-16 md:py-24 relative overflow-hidden mt-8">
       {/* Overlay for the background */}
       <div className="absolute top-0 left-0 w-full h-full
                 bg-gradient-to-br from-gray-900 via-purple-900 to-black opacity-40
@@ -10,13 +10,7 @@ const HeroSection = () => {
       ></div>
 
       <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-16 relative z-10">
-        {/* Top Bar with Logo and Contact Info */}
-        <div className="flex items-center justify-between mb-8">
-          <div className="text-white text-xl font-bold">Logoipsum</div>
-          <div className="text-white text-sm">
-            Have Questions? <span className="font-semibold">(786) 598-0088</span>
-          </div>
-        </div>
+ 
 
         {/* Main Hero Text and Call to Action */}
         <div className="text-center mb-10">

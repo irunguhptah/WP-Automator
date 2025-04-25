@@ -29,7 +29,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black py-16 md:py-24">
+    <div id="FAQ" className="bg-gradient-to-br from-gray-900 to-black py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-16">
         <div className="text-center mb-12">
           <h2 className="text-white text-4xl font-bold leading-tight mb-4">Frequently Asked Questions</h2>

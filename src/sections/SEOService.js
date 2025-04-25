@@ -2,7 +2,7 @@ import React from 'react';
 
 const SEOService = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black py-16 md:py-24">
+    <div id="SEOService" className="bg-gradient-to-br from-gray-900 to-black py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-16">
         {/* Main title of the section */}
         <div className="text-center mb-12">
@@ -45,20 +45,14 @@ const SEOService = () => {
             <img
               src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3af7b055ae_Googlesearchresultsrankingillustrationr-maprankmasters.svg"
               alt="Google Search Results Ranking"
-              className="w-full rounded-lg shadow-lg"
+              className="w-80 h-80 rounded-lg shadow-lg"
             />
           </div>
         </div>
 
         {/* Second content block: Image and Text */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mt-16">
-          <div className="md:order-2">
-            <img
-              src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3af68b4eff_Googlescalingillustration-maprankmasters.svg"
-              alt="Google Scaling Illustration"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
+        <div className="grid md:grid-cols-2 gap-36 items-center mt-16">
+
           <div className="md:order-1">
             <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
               Get Your Business Seen, Trusted, and Chosen Every Single Day
@@ -77,6 +71,13 @@ const SEOService = () => {
               With consistent visibility, you can scale with confidence, knowing your business is always working for you even
               when you're not.
             </p>
+          </div>
+          <div className="md:order-2">
+            <img
+              src="https://d1yei2z3i6k35z.cloudfront.net/2551085/67e3af68b4eff_Googlescalingillustration-maprankmasters.svg"
+              alt="Google Scaling Illustration"
+              className="w-80 h-80 rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </div>
